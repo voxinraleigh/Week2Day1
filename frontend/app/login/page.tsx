@@ -23,10 +23,9 @@ export default function LoginPage() {
 
     if (res.ok) {
       router.push("/");
-      router.refresh();
     } else {
       const data = await res.json();
-      setError(data.error ?? "Invalid credentials");
+      setError(data.detail ?? "Invalid credentials");
       setSubmitting(false);
     }
   }
