@@ -1,0 +1,12 @@
+**/node_modules
+**/.next
+**/out
+**/.venv
+**/__pycache__
+**/*.pyc
+**/data
+**/.git
+**/.pytest_cache
+**/test-results
+**/playwright-report
+**/tests/.tmp-db
